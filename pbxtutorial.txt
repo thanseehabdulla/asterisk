@@ -36,7 +36,7 @@ Steps Required:
        
        we are using yealink sip phone .
 
-       *create extention -> give some name eg: 700 -> copy password -> yealink website -> register sip with our IP and secret. 
+       *create extention -> give some name eg: 700 -> copy password (Secret) -> yealink website -> register sip with our IP and secret. 
 
       *check availability in terminal
 
@@ -47,9 +47,9 @@ iii] SoftPhones : PJSIP extentions
 
  we have paid softphones from couterpath.com ,we can also have free softphone twinkle for linux. 
       
-       *create extention -> give some name eg: 700 -> copy password -> twinke softphone -> register with our IP and secret. 
+       *create extention -> give some name eg: 700 -> copy password(secret) -> twinke softphone -> register with our IP and secret. 
 
  *check availability in terminal
 
 
- COMMAND : asterisk -rx ("PJSIP show endpoints")
+ COMMAND : asterisk -rx "PJSIP show endpoints"
