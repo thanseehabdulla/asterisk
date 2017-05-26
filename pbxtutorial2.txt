@@ -1,0 +1,32 @@
+
+
+   How Routing can be done
+
+
+Routes we have 
+            
+             -> InBound
+             -> OutBound
+
+
+steps
+
+   *    Outbound Routes 
+                
+         connectivity -> Setup Trunk
+
+         conncetivity -> setup outBound
+  
+   *    InBound Routes
+
+
+                connectivity -> inbound Routes
+
+                  - add incoming (Display name)
+
+                  - set Extention (softphone name)
+
+
+
+
+     
