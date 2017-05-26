@@ -1,0 +1,55 @@
+
+
+                                        Free pbx with Asterisk now
+
+Steps Required:
+
+
+1. download asteriskNow(support GUI)  iso from their home page (http://www.asterisk.org/)
+
+2. login to terminal backend using putty with the ip address
+
+3. login to GUI with IP from chrome browser
+
+4. create a  user from the first pop up screen 
+
+5. activate the user with detail to access all the features and get a free 1 module buy
+
+6. update the modules
+
+7. Enable firewall
+
+8.Extentions Types
+
+  i] PRI card (primary rate card): Dahdhi extention 
+
+    * check availability from terminal in putty 
+
+      COMMAND:  Wanrouter hwprobe verbose
+
+    * From connectivity -> Dadhi config -> enable 
+
+     * reload -> Digital Hardware will shown with slot and ids
+
+  ii] SIP : Generic chain_SIP extention 
+
+       
+       we are using yealink sip phone .
+
+       *create extention -> give some name eg: 700 -> copy password -> yealink website -> register sip with our IP and secret. 
+
+      *check availability in terminal
+
+      COMMAND :  sip show peers
+
+   
+iii] SoftPhones : PJSIP extentions 
+
+ we have paid softphones from couterpath.com ,we can also have free softphone twinkle for linux. 
+      
+       *create extention -> give some name eg: 700 -> copy password -> twinke softphone -> register with our IP and secret. 
+
+ *check availability in terminal
+
+
+ COMMAND : asterisk -rx ("PJSIP show endpoints")
