@@ -40,7 +40,7 @@ Steps Required:
 
       *check availability in terminal
 
-      COMMAND :  sip show peers
+      COMMAND :  asterisk -rx "SIP show peers"
 
    
 iii] SoftPhones : PJSIP extentions 
