@@ -1,0 +1,78 @@
+
+
+       setting up inbound routes in free pbx
+
+--------------------------------------------------------------------------------
+
+phase 1:
+
+
+                -->connectivity -- > inbound Routes
+
+
+                Description : All Incoming
+
+                set destination : Exetntion (dahdi)
+
+
+--save
+
+--------------------------------------------------------------------------------
+
+ phase 2 : Ring Group 
+
+
+                  -->APplication --> RingGroup
+
+    
+
+                   Ring gRoup Number : 600
+
+                   Ring stategy : Ringall
+
+
+                   Ring time : 15
+
+                   extention : dadhi
+
+                   
+                  if no answer
+                   Destination  : voice mail or ivr
+
+--------------------------------------------------------------------------------
+
+
+             -- connectivity-->inbound routes
+
+
+                     -->right side --> All incoming CID and DID
+
+                       Ring Group --> select 600
+
+--save 
+
+--------------------------------------------------------------------------------
+
+
+                  Time- Group (Ring on Bussiness hours else voice mail)
+
+
+             -->application --> time group
+
+
+             --> aplication --> add time condtion
+
+
+
+                      tiem condtion name : open
+
+                      time group : bussiness hours
+
+                     destination :voice mail
+
+--save 
+
+
+-------------------------------------------------------------------------------:
+
+      successfully completed inbound ring group and time condtion  

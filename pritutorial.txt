@@ -1,0 +1,119 @@
+
+
+                     setting up PRI using free pbx 
+
+
+
+Phase 1:
+--------------------------------------------------------------------------------
+
+COMMAND     :  warrouter hwprobe verbose
+
+
+open ip ->  
+
+
+         connectivity -> Dadhi config 
+
+
+                          -> Enable
+
+
+                         -> right side menu -> Global setting 
+
+
+                                LAnguage: engkish
+
+                                enable busy detect :yes
+
+
+                                busy count : 10
+
+
+                                use callerid : yes
+
+                                enable call writing :yes
+
+                                enable three way calling :yes
+
+
+            -->SAVE
+
+   --->Restart Asterisk Dadhi module
+
+ -->apply config
+
+
+
+                        -->right side menu -> sangoma setting
+
+                         run wanpipe yes
+                   
+                         T!/MODE  T1
+
+         -->save
+
+
+-->apply config
+
+ 
+--------------------------------------------------------------------------------
+
+phase 2: 
+
+
+        Admin -> System admin 
+
+
+
+               Right side menu --> power option  
+
+
+                       reboot
+
+
+--------------------------------------------------------------------------------
+
+phase 3: 
+
+
+       connectivity -> Dadhi config
+
+              
+                    -->digital 
+
+
+                           --> Edit
+
+
+                             Alarms - red
+
+
+                             Framing/coding : ESF//88zs
+
+                             signaling : PRI -CPE
+       
+                             switch type : NAtional ISDN 2
+
+                             sync/clockSource :	 0 
+
+                             Line build out :0db
+
+                             PRI Dail plan : NAtional
+                    
+                             PRI Local plan : national
+
+                            Gain : 0db                            
+ 
+			     used channel 23
+
+    --save
+
+
+-- reload dadhi 
+
+
+--------------------------------------------------------------------------------
+
+
+              you have successufully configured Dadhi PRI card

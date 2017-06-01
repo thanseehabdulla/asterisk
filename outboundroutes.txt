@@ -1,0 +1,56 @@
+
+
+        Setting up outbound routes
+
+--------------------------------------------------------------------------------
+
+
+
+
+                     Connectivity --> trunks
+
+                                    --> Dadhi Trunks
+
+                   ( see Trunk tutorial)
+-------------------------------------------------------------------------------    
+
+phase 1: 
+
+
+                     connectivity --> OutboundRoutes
+
+                                  
+                               route name : All Outbound
+ 
+                               Route CID  : "aceinfolabs" <9847444106>  
+
+                               
+
+                               dial pattern wizrd : 7 to 10 digits
+
+
+
+                               dail pattern use tthis routes :
+
+                 ( ..) (..)  +1NXXNXXXXXX / ..
+
+                  (1541)  (..)  NXXXXXX / ..
+
+
+                  (1)  (..)  NXXNXXXXX   /   ..          
+
+
+                  (..) (..) 411 / ..
+
+                  (..) (..) 911 / ..
+
+
+      Trunk sequence for matched routed dhadhi
+
+
+--submit changes
+
+--------------------------------------------------------------------------------
+
+
+                  successfully configured out bound routes

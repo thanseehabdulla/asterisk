@@ -1,0 +1,20 @@
+
+
+          Setting up ivr and system recording
+
+--------------------------------------------------------------------------------
+
+
+phase 1:
+
+
+       -->application --> ivr
+
+
+       --> application --> system recording
+
+
+
+--------------------------------------------------------------------------------
+
+   succsfully setup ivr and system recording
